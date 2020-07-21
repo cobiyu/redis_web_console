@@ -6,7 +6,7 @@ Redis에 관한 CRUD를 위한 Web Console (내가 불편해서 만듬)
 
 
 ## 1. 사용 기술
-Spring Boot음(java8), Vue(npm(6.13.4), vue-cli)
+Spring Boot(java8), Vue(npm(6.13.4), vue-cli)
 
 
 
