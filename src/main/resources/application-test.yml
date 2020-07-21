@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: prod
+  devtools:
+      livereload:
+          enabled: true
+  thymeleaf:
+      cache: false
+
+---
+redis-server:
+  list :
+    - alias: server1alias
+      hosts : server1host
+      password : server1password
+      port : server1port
+    - alias: server2alias
+      hosts : server2hosts
+      password : server2password
+      port : server1port
